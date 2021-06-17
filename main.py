@@ -17,9 +17,7 @@ from data.contracts import Contracts
 from keyboards import kb
 
 
-# @TestingforYLbot юзернейм бота
-# API_TOKEN = '1639835816:AAFKLEJntypKv1BVMkMhqKxzQRHxnv1gIKE'
-BOT_NAME = '@TestingforYLbot'
+BOT_NAME = config.BOT_NAME
 
 bot = Bot(token=config.API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
